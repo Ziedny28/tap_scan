@@ -59,7 +59,13 @@ class RegisterPage extends StatelessWidget {
                 height: 40,
               ),
               MainButton(
-                function: () {},
+                function: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => const LoginPage(),
+                    ),
+                  );
+                },
                 buttonText: "Register",
               ),
               const SizedBox(

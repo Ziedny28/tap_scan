@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tap_scan/components/components.dart';
+import 'package:tap_scan/pages/my_scans_page.dart';
 import 'package:tap_scan/pages/register_page.dart';
 
 class LoginPage extends StatelessWidget {
@@ -53,7 +54,13 @@ class LoginPage extends StatelessWidget {
                 height: 20,
               ),
               MainButton(
-                function: () {},
+                function: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => const MyScansPage(),
+                    ),
+                  );
+                },
                 buttonText: "Login",
                 horizontalPadding: 80,
               ),
@@ -75,28 +82,30 @@ class LoginPage extends StatelessWidget {
                 height: 30,
               ),
               Center(
-                child: Column(children: [
-                  const Text(
-                    "No account?",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                  InkWell(
-                    onTap: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => const RegisterPage(),
+                child: Column(
+                  children: [
+                    const Text(
+                      "No account?",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const RegisterPage(),
+                          ),
+                        );
+                      },
+                      child: const Text(
+                        "Create Account",
+                        style: TextStyle(
+                          color: Colors.white,
+                          decoration: TextDecoration.underline,
                         ),
-                      );
-                    },
-                    child: const Text(
-                      "Create Account",
-                      style: TextStyle(
-                        color: Colors.white,
-                        decoration: TextDecoration.underline,
                       ),
                     ),
-                  ),
-                ]),
+                  ],
+                ),
               )
             ],
           ),
