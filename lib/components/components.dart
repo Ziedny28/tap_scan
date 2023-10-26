@@ -362,3 +362,37 @@ class IconCard extends StatelessWidget {
     );
   }
 }
+
+class MainBottomNavBar extends StatelessWidget {
+  const MainBottomNavBar({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return BottomNavigationBar(
+      items: const [
+        BottomNavigationBarItem(
+          icon: Icon(Icons.home),
+          label: "Home",
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.person),
+          label: "Profile",
+        ),
+      ],
+    );
+  }
+}
+
+class MainFloatingActionButton extends StatelessWidget {
+  const MainFloatingActionButton({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return FloatingActionButton.extended(
+      backgroundColor: const Color.fromRGBO(255, 240, 44, 1),
+      onPressed: () {},
+      label: const Text(''),
+      icon: const Icon(Icons.camera),
+      elevation: 4.0,
+    );
+  }
+}
