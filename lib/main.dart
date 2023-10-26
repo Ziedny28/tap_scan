@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tap_scan/pages/pdf_page.dart';
+import 'package:tap_scan/pages/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "Poppins",
       ),
-      home: const PdfPage(),
+      home: const WelcomePage(),
     );
   }
 }
