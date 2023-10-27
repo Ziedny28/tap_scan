@@ -57,7 +57,7 @@ class MyScansPage extends StatelessWidget {
                 ),
                 SizedBox(
                   width: double.infinity,
-                  height: mediaQueryData.size.height - 259,
+                  height: mediaQueryData.size.height - 293,
                   child: Container(
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.only(

@@ -85,9 +85,7 @@ class MainTextField extends StatelessWidget {
         fillColor: Colors.white,
         hintText: hintText,
         hintStyle: const TextStyle(color: Color.fromRGBO(0, 198, 232, 1)),
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(10.0),
-        ),
+        border: InputBorder.none,
       ),
     );
   }
