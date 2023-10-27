@@ -85,7 +85,7 @@ class RegisterPage extends StatelessWidget {
               Center(
                 child: Column(children: [
                   const Text(
-                    "Alredy have account?",
+                    "Already have account?",
                     style: TextStyle(color: Colors.white),
                   ),
                   InkWell(

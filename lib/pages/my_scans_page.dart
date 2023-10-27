@@ -28,14 +28,22 @@ class MyScansPage extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Icon(
-                        Icons.search,
-                        color: Colors.white,
+                      InkWell(
+                        onTap: () {
+                          showSearch(
+                            context: context,
+                            delegate: DataSearch(),
+                          );
+                        },
+                        child: Icon(
+                          Icons.search,
+                          color: Colors.white,
+                        ),
                       ),
                       Text(
                         "My Scans",
                         style: TextStyle(
-                          fontWeight: FontWeight.w700,
+                          fontWeight: FontWeight.w900,
                           color: Colors.white,
                         ),
                       ),
@@ -136,5 +144,46 @@ class MyScansPage extends StatelessWidget {
         bottomNavigationBar: const MainBottomNavBar(),
       ),
     );
+  }
+}
+
+class DataSearch extends SearchDelegate<String> {
+  @override
+  List<Widget> buildActions(BuildContext context) {
+    // actions for app bar
+    return [
+      IconButton(
+        icon: const Icon(Icons.clear),
+        onPressed: () {
+          query = '';
+        },
+      ),
+    ];
+  }
+
+  @override
+  Widget buildLeading(BuildContext context) {
+    // leading icon on the left of the app bar
+    return IconButton(
+      icon: AnimatedIcon(
+        icon: AnimatedIcons.menu_arrow,
+        progress: transitionAnimation,
+      ),
+      onPressed: () {
+        close(context, "");
+      },
+    );
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    // show some result based on the selection
+    return Container();
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    // show when someone searches for something
+    return Container();
   }
 }

@@ -2,17 +2,15 @@
 
 tapScan
 
-"Fast, Easy, and Secure: tapScan - Scan with a Single Tap!"
+Fast, Easy, and Secure: tapScan - Scan with a Single Tap!
 
-## Kelompok 6
+## Group 6
 
 - [Wildan Hafidz Mauludin](https://github.com/nikoshaa)
 - [Dhayu Intan Nareswari](https://github.com/DhayuIntan)
 - [Farhan Dwi Pramana](https://github.com/FarhanDwiPramana)
 - [Mochammad Zaky Zamroni](https://github.com/zakyzuf)
 - [Ziedny Bisma Mubarok](https://github.com/Ziedny28)
-
-(tampilkan berupa gif jika app sudah selesai)
 
 ![screen.gif](docs/task/result_task.gif)
 

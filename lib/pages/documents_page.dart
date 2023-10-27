@@ -35,7 +35,7 @@ class DocumentsPage extends StatelessWidget {
                         Text(
                           "My Scans",
                           style: TextStyle(
-                            fontWeight: FontWeight.w700,
+                            fontWeight: FontWeight.w900,
                             color: Colors.white,
                           ),
                         ),

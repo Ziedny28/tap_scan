@@ -30,7 +30,7 @@ class WelcomePage extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "Welcome",
+                  "WELCOME",
                   style: TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: 40,
@@ -50,7 +50,7 @@ class WelcomePage extends StatelessWidget {
                 ),
                 MainButton(
                   function: () {},
-                  buttonText: "Take a Picture",
+                  buttonText: "TAKE A PICTURE",
                   iconData: Icons.camera_alt_outlined,
                 ),
                 const SizedBox(
@@ -58,7 +58,7 @@ class WelcomePage extends StatelessWidget {
                 ),
                 MainButton(
                   function: () {},
-                  buttonText: "Galery",
+                  buttonText: "GALLERY",
                   iconData: Icons.photo,
                   horizontalPadding: 70,
                 ),
@@ -67,7 +67,7 @@ class WelcomePage extends StatelessWidget {
                 ),
                 MainButton(
                   function: () {},
-                  buttonText: "Import Pdf",
+                  buttonText: "IMPORT PDF",
                   iconData: Icons.picture_as_pdf_outlined,
                   horizontalPadding: 55,
                 ),
