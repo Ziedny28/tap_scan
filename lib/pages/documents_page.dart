@@ -59,7 +59,7 @@ class DocumentsPage extends StatelessWidget {
                     data: mediaQueryData,
                     child: SizedBox(
                       width: double.infinity,
-                      height: MediaQuery.of(context).size.height - 259,
+                      height: MediaQuery.of(context).size.height - 293,
                       child: Container(
                         decoration: const BoxDecoration(
                           borderRadius: BorderRadius.only(

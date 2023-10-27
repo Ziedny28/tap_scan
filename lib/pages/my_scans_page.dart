@@ -8,10 +8,10 @@ class MyScansPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final mediaQueryData = MediaQuery.of(context);
     List<String> items = [
-      'Item1',
-      'Item2',
-      'Item3',
-      'Item4',
+      'ID Card 1',
+      'ID Card 2',
+      'ID Card 3',
+      'ID Card 4',
     ];
     return SafeArea(
       child: Scaffold(

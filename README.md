@@ -1,16 +1,37 @@
-# tap_scan
+# tapScan
 
-A new Flutter project.
+tapScan
 
-## Getting Started
+"Fast, Easy, and Secure: tapScan - Scan with a Single Tap!"
 
-This project is a starting point for a Flutter application.
+## Kelompok 6
 
-A few resources to get you started if this is your first Flutter project:
+- [Wildan Hafidz Mauludin](https://github.com/nikoshaa)
+- [Dhayu Intan Nareswari](https://github.com/DhayuIntan)
+- [Farhan Dwi Pramana](https://github.com/FarhanDwiPramana)
+- [Mochammad Zaky Zamroni](https://github.com/zakyzuf)
+- [Ziedny Bisma Mubarok](https://github.com/Ziedny28)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+(tampilkan berupa gif jika app sudah selesai)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![screen.gif](docs/task/result_task.gif)
+
+# Screen dan PIC
+
+| No. | Nama Screen | Fitur | PIC   |
+| --- | ----------- | ----- | ----- |
+| 1   | Splash      | -     | Mr. X |
+
+dst
+
+# Link Figma
+
+(cantumkan linknya di sini dan screenshot per screen)
+
+# Fitur Unggulan
+
+(jika ada)
+
+# Credits
+
+(jika ada aset image, icon, font, cantumkan di sini sumber URL)
