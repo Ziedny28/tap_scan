@@ -113,15 +113,18 @@ class PdfPage extends StatelessWidget {
                               const SizedBox(
                                 height: 20,
                               ),
-                              const IconCard(iconData: Icons.document_scanner),
+                              const IconCard(
+                                  iconData: Icons.picture_as_pdf_outlined),
                               const SizedBox(
                                 height: 20,
                               ),
-                              const IconCard(iconData: Icons.document_scanner),
+                              const IconCard(
+                                  iconData: Icons.picture_as_pdf_outlined),
                               const SizedBox(
                                 height: 20,
                               ),
-                              const IconCard(iconData: Icons.document_scanner),
+                              const IconCard(
+                                  iconData: Icons.picture_as_pdf_outlined),
                             ],
                           ),
                         ),

@@ -344,7 +344,7 @@ class IconCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Sample Document.docx",
+                  "Sample Document",
                   style: TextStyle(fontSize: 14, color: Colors.white),
                 ),
                 Text(
